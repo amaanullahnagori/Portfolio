@@ -8,7 +8,6 @@ return <>
     <spam><a href="http://">About</a></spam>
     <spam><a href="http://">Projects</a></spam>
     <spam><a href="http://">Contact</a></spam>
-    <spam><a href="http://">Contact</a></spam>
     
   </div>
 
