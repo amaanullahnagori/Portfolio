@@ -27548,13 +27548,81 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 const Body = ()=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-        children: "body"
-    }, void 0, false, {
-        fileName: "components/body.jsx",
-        lineNumber: 3,
-        columnNumber: 12
-    }, undefined);
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "body",
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "intro",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "il",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    id: "t",
+                                    children: "Hello! My Name is Amaan!!"
+                                }, void 0, false, {
+                                    fileName: "components/body.jsx",
+                                    lineNumber: 6,
+                                    columnNumber: 21
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    children: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium incidunt numquam vero atque. Placeat, unde!"
+                                }, void 0, false, {
+                                    fileName: "components/body.jsx",
+                                    lineNumber: 7,
+                                    columnNumber: 21
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    children: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores delectus maxime earum consequuntur eligendi suscipit quos, molestiae est ea vitae."
+                                }, void 0, false, {
+                                    fileName: "components/body.jsx",
+                                    lineNumber: 9,
+                                    columnNumber: 21
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "components/body.jsx",
+                            lineNumber: 5,
+                            columnNumber: 17
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "ir",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                src: "https://cdni.iconscout.com/illustration/premium/thumb/male-programmer-working-on-laptop-4375019-3640109.png",
+                                alt: "image",
+                                srcset: "",
+                                id: "logo"
+                            }, void 0, false, {
+                                fileName: "components/body.jsx",
+                                lineNumber: 12,
+                                columnNumber: 22
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "components/body.jsx",
+                            lineNumber: 11,
+                            columnNumber: 17
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "components/body.jsx",
+                    lineNumber: 4,
+                    columnNumber: 13
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "project"
+                }, void 0, false, {
+                    fileName: "components/body.jsx",
+                    lineNumber: 15,
+                    columnNumber: 13
+                }, undefined)
+            ]
+        }, void 0, true, {
+            fileName: "components/body.jsx",
+            lineNumber: 3,
+            columnNumber: 9
+        }, undefined)
+    }, void 0, false);
 };
 _c = Body;
 exports.default = Body;
