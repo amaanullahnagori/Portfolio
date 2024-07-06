@@ -5,6 +5,14 @@
     /* background-color: #fdb935; */
     box-sizing: border-box;
 }
+.thumbnail{
+    height: 100vh;
+    width: 100%;
+    background-color: #fdb935;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
 .r{
     height: 100%;
     width: 100%;
@@ -19,8 +27,9 @@ a{
     flex-direction: row;
     justify-content:space-between;
     align-items: flex-start;
-    height: 10%;
+    height: fit-content;
     width: 100%;
+   
     
 }
 #left{
@@ -30,9 +39,11 @@ a{
     display: flex;
     align-items: center;
     background-color: white;
-   color: #fdb935;
-   font-size: 1.5vw;
-   padding-left: 2vw;
+    color: #fdb935;
+    font-size: 1.5vw;
+    padding-left: 2vw;
+    border-top-left-radius: 1rem;
+    /* border-bottom-left-radius: 1rem; */
 }
 #right{
     height: 10vh;
@@ -44,14 +55,18 @@ a{
     gap: 5vw;
     padding:0.7rem ;
     background-color: #fdb935;
-
     font-weight: 200; 
-
+    border-top-right-radius: 1rem;
+    font-size: 1vw;
+    /* border-bottom-right-radius: 1rem; */
 }
 .body{
-    height: 200vh ;
-    width: 100%;
-    /* background-color: lightblue; */
+    height: fit-content ;
+    width: 70vw;
+    background-color: white;
+     border-radius: 1rem;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
     /* padding: 2.5rem; */
  
 }
@@ -59,14 +74,19 @@ a{
     height:60vh;
     width: 50%;
     /* background-color: aqua; */
-    padding: 5rem;
+    padding: 3.3rem;
+    font-size: 1vw;
 }
 .ir{
- height: 60vh;
+ height: 50vh;
  width: 50%;
  background-color: #fdb935;
 border-bottom-left-radius: 11vw;
-padding-left: 10vw;
+padding-left: 9vw;
+}
+#logo{
+    height: 45vh;
+    width: 20vw;
 }
 .intro {
     display: flex;
@@ -74,6 +94,30 @@ padding-left: 10vw;
     
 }
 #t{
-    font-size: 4vw;
+    font-size: 3vw;
     font-weight: 600;
+}
+.butt{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    gap:3vw;
+}
+#but{
+    /* -webkit-appearance: none; */
+    width: 7vw;
+    height: 5vh;
+    border-radius: 0.5rem;
+   
+}
+#but:hover{
+    cursor: pointer;
+}
+.butt1{
+    background-color: #fdb935;
+    border: none;
+}
+.butt2{
+    background-color: white;
+    
 }
