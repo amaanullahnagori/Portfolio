@@ -5,66 +5,87 @@
   font-family: cursive;
 }
 
-.r {
-  background-color: #fff;
-  width: 100%;
-  height: 100%;
-}
-
-a {
-  color: #000;
-}
-
-#nav {
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
-  width: 100%;
-  height: 10%;
-  display: flex;
-}
-
-#left {
-  color: #fdb935;
-  background-color: #fff;
-  align-items: center;
-  width: 50%;
-  height: 10vh;
-  padding: .7rem .7rem .7rem 2vw;
-  font-size: 1.5vw;
-  display: flex;
-}
-
-#right {
+.thumbnail {
   background-color: #fdb935;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: end;
-  gap: 5vw;
-  width: 50%;
-  height: 10vh;
-  padding: .7rem;
-  font-weight: 200;
-  display: flex;
-}
-
-.body {
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  height: 200vh;
+  height: 100vh;
+  display: flex;
+
+  & .r {
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+  }
+
+  & a {
+    color: #000;
+  }
+
+  & #nav {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+  }
+
+  & #left {
+    color: #fdb935;
+    background-color: #fff;
+    border-top-left-radius: 1rem;
+    align-items: center;
+    width: 50%;
+    height: 10vh;
+    padding: .7rem .7rem .7rem 2vw;
+    font-size: 1.5vw;
+    display: flex;
+  }
+
+  & #right {
+    background-color: #fdb935;
+    border-top-right-radius: 1rem;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: end;
+    gap: 5vw;
+    width: 50%;
+    height: 10vh;
+    padding: .7rem;
+    font-size: 1vw;
+    font-weight: 200;
+    display: flex;
+  }
+
+  & .body {
+    background-color: #fff;
+    border-radius: 1rem;
+    width: 70vw;
+    height: fit-content;
+    box-shadow: 0 4px 8px #0000004d, 0 6px 20px #00000030;
+  }
 }
 
 .il {
   width: 50%;
   height: 60vh;
-  padding: 5rem;
+  padding: 3.2rem;
+  font-size: 1vw;
 }
 
 .ir {
   background-color: #fdb935;
   border-bottom-left-radius: 11vw;
   width: 50%;
-  height: 60vh;
-  padding-left: 10vw;
+  height: 50vh;
+  padding-left: 9vw;
+}
+
+#logo {
+  width: 20vw;
+  height: 45vh;
 }
 
 .intro {
@@ -73,7 +94,33 @@ a {
 }
 
 #t {
-  font-size: 4vw;
+  font-size: 3vw;
   font-weight: 600;
+}
+
+.butt {
+  flex-direction: row;
+  gap: 3vw;
+  margin-top: 2rem;
+  display: flex;
+}
+
+#but {
+  border-radius: .5rem;
+  width: 7vw;
+  height: 5vh;
+}
+
+#but:hover {
+  cursor: pointer;
+}
+
+.butt1 {
+  background-color: #fdb935;
+  border: none;
+}
+
+.butt2 {
+  background-color: #fff;
 }
 /*# sourceMappingURL=index.9e4c6fd2.css.map */

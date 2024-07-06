@@ -5,9 +5,9 @@ return <>
     <h2>Amaan Ullah Nagori</h2>
   </div>
   <div id="right">
-    <spam><a href="http://">About</a></spam>
-    <spam><a href="http://">Projects</a></spam>
-    <spam><a href="http://">Contact</a></spam>
+    <p><a href="http://">About</a></p>
+    <p><a href="http://">Projects</a></p>
+    <p><a href="http://">Contact</a></p>
      
   </div>
 
