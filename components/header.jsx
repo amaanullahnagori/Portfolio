@@ -5,9 +5,9 @@ return <>
     <h2>Amaan Ullah Nagori</h2>
   </div>
   <div id="right">
-    <p><a href="http://">About</a></p>
+    <p><a href="http://">About Me</a></p>
     <p><a href="http://">Projects</a></p>
-    <p><a href="http://">Contact</a></p>
+    <p><a href="http://">Contact Me</a></p>
      
   </div>
 

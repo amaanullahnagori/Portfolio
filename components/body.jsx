@@ -1,4 +1,5 @@
 import Header from "./header.jsx";
+
 const Body=()=>{
     return  <>
           <div className="thumbnail">

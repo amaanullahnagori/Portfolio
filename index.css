@@ -12,11 +12,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-   
-.r{
-    height: 100%;
-    width: 100%;
-    background-color: white;
+}
+#root{
+    height: 100vh;
+    width: 100vw;
+    background-color: #fdb935;
 }
 a{
     /* text-decoration: none; */
@@ -69,7 +69,7 @@ a{
     }
     /* padding: 2.5rem; */
  
-}
+
 .il{
     height:60vh;
     width: 50%;
@@ -120,4 +120,40 @@ padding-left: 9vw;
 .butt2{
     background-color: white;
     
+}
+.errorDiv{
+    height: 50vh;
+    width: 50vw;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 24%;
+    top: 20%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 1rem;
+    padding :1rem
+}
+#img1{
+    height: 15vh;
+    width: 12vw;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    border: 0.05rem solid black;
+}
+.H{
+    margin-top: 1rem;
+    text-decoration: underline;
+}
+.about{
+    padding: 2rem;
+    font-size: 1.5vw;
+}
+#list {
+    padding-left: 1.2rem;
+}
+.sub{
+    margin-top: 2rem;
 }
